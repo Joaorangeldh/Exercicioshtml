@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body, html{
+height: 100%;
+}
+
+div#perfil{
+width: 20%;
+height: 100%;
+position: fixed;
+background-color: blueviolet;
+}
+
+header{
+position: absolute;
+}
+
+div#img > img{ 
+width: 50%;
+height: 80%;
+border-radius: 50%;
+}
